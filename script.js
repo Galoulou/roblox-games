@@ -16,18 +16,64 @@ async function loadGames() {
 
     } catch (error) {
 
-        gamesContainer.innerHTML = `
-            <p style="color:#ff6b6b;">
-                Impossible de charger les jeux.
-            </p>
-        `;
+        gamesContainer.innerHTML += `
 
-        console.error(error);
+<div class="game-card">
 
-    }
+    <div class="game-image">
 
-}
+        <div class="badge">${game.badge}</div>
 
+        🎮
+
+    </div>
+
+    <div class="game-content">
+
+        <h3>${game.name}</h3>
+
+        <p>${game.description}</p>
+
+        <div class="infos">
+
+            <span>🎯 ${game.genre}</span>
+
+            <span>👥 ${game.players}</span>
+
+        </div>
+
+        <div class="status">
+
+            ${game.status}
+
+        </div>
+
+        <div class="game-buttons">
+
+            <a href="game.html?id=${game.id}" class="details-btn">
+
+                📄 Voir
+
+            </a>
+
+            <a href="${game.url}"
+
+            target="_blank"
+
+            class="play-btn">
+
+                ▶ Jouer
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+`;
+           
 // Afficher les jeux
 function displayGames(list) {
 
