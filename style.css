@@ -393,5 +393,36 @@ font-size:46px;
 font-size:18px;
 
 }
+   .game-buttons{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
 
+.game-buttons a{
+    flex:1;
+    text-align:center;
+    text-decoration:none;
+    padding:12px;
+    border-radius:6px;
+    font-weight:600;
+    transition:.25s;
+}
+
+.details-btn{
+    background:#2b3f55;
+    color:white;
+}
+
+.details-btn:hover{
+    background:#3a5674;
+}
+
+.play-btn{
+    background:#1A9FFF;
+    color:white;
+}
+
+.play-btn:hover{
+    background:#66C0F4;
 }
