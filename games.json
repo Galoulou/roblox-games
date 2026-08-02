@@ -1,4 +1,43 @@
 [
+  {
+    "id": 1,
+    "title": "Zombie Survival",
+    "description": "Survis avec tes amis face à des vagues de zombies et améliore ton équipement.",
+    "status": "Disponible",
+    "genre": "Survival",
+    "players": "1-8",
+    "year": "2026",
+    "image": "assets/images/zombie-survival.jpg",
+    "roblox": "https://www.roblox.com/games/TON_ID",
+    "featured": true
+  },
+
+  {
+    "id": 2,
+    "title": "Projet n°2",
+    "description": "Une nouvelle aventure est actuellement en développement.",
+    "status": "Développement",
+    "genre": "Aventure",
+    "players": "1-12",
+    "year": "2026",
+    "image": "assets/images/projet2.jpg",
+    "roblox": "#",
+    "featured": false
+  },
+
+  {
+    "id": 3,
+    "title": "Projet Secret",
+    "description": "Encore un peu de patience avant sa révélation...",
+    "status": "Prototype",
+    "genre": "Mystère",
+    "players": "?",
+    "year": "2026",
+    "image": "assets/images/secret.jpg",
+    "roblox": "#",
+    "featured": false
+  }
+][
     {
         "id":"zombie-survival",
         "name":"Zombie Survival",
