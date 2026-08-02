@@ -59,10 +59,17 @@ function displayGames(list) {
 
                 <p>${game.description}</p>
 
-                <a href="${game.url}"
-                   target="_blank">
-                    Jouer sur Roblox
-                </a>
+                <div class="game-buttons">
+
+    <a href="game.html?id=${game.id}" class="details-btn">
+        📄 Voir le jeu
+    </a>
+
+    <a href="${game.url}" target="_blank" class="play-btn">
+        ▶ Jouer sur Roblox
+    </a>
+
+</div>
 
             </div>
 
