@@ -1,17 +1,22 @@
 [
-    {
-        "name": "Zombie Survival",
-        "description": "Survis à des vagues infinies de zombies avec tes amis.",
-        "url": "https://www.roblox.com/games/123456789"
-    },
-    {
-        "name": "Cookie Tycoon",
-        "description": "Construis la meilleure usine à cookies de Roblox.",
-        "url": "https://www.roblox.com/games/987654321"
-    },
-    {
-        "name": "Projet Secret",
-        "description": "Un nouveau jeu arrive bientôt...",
-        "url": "https://www.roblox.com/"
-    }
+  {
+    "id": "zombie-survival",
+    "name": "Zombie Survival",
+    "description": "Survis à des vagues infinies de zombies.",
+    "longDescription": "Affronte des hordes de zombies, améliore ton équipement et coopère avec tes amis pour survivre le plus longtemps possible.",
+    "genre": "Survie",
+    "players": "1 - 8",
+    "status": "Disponible",
+    "url": "https://www.roblox.com/games/123456789"
+  },
+  {
+    "id": "cookie-tycoon",
+    "name": "Cookie Tycoon",
+    "description": "Construis une immense usine à cookies.",
+    "longDescription": "Développe ton empire du cookie, débloque des machines toujours plus performantes et deviens le roi du biscuit.",
+    "genre": "Tycoon",
+    "players": "1 - 12",
+    "status": "En développement",
+    "url": "https://www.roblox.com/"
+  }
 ]
